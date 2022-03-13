@@ -26,11 +26,25 @@
         }
         
         .about {
-            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 200px;
             color: black;
             background-color: white;
+            width: auto;
+            margin-top: 50px;
+            position: relative;
+        }
+        
+        .about-desc {
+            font-family: sans-serif;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2px;
+            font-family: poppins;
+        }
+        
+        .about-title {
+            font-weight: 900;
         }
