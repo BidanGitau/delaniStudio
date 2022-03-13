@@ -34,6 +34,7 @@
             width: auto;
             margin-top: 50px;
             position: relative;
+            height: 400px;
         }
         
         .about-desc {
@@ -46,8 +47,10 @@
         }
         
         .about-title,
-        .s-desc {
+        .s-title {
             font-weight: 900;
+            color: black;
+            z-index: 800;
         }
         
         .services {
@@ -55,10 +58,6 @@
             background-image: url('../assets/backgrounds/s_image.jpg');
             background-attachment: fixed;
             background-position: center;
-            height: 300px;
+            height: 400px;
             color: white;
-        }
-        
-        .s-desc {
-            font-weight: 900;
         }
