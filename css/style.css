@@ -45,6 +45,20 @@
             font-family: poppins;
         }
         
-        .about-title {
+        .about-title,
+        .s-desc {
+            font-weight: 900;
+        }
+        
+        .services {
+            margin-top: 10px;
+            background-image: url('../assets/backgrounds/s_image.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            height: 300px;
+            color: white;
+        }
+        
+        .s-desc {
             font-weight: 900;
         }
