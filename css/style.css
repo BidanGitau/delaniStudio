@@ -61,3 +61,24 @@
             height: 400px;
             color: white;
         }
+        
+        #contactus-section {
+            background-image: url('../assets/backgrounds/c_image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #emailAddress,
+        #name,
+        #message {
+            background: transparent;
+            border: solid whitesmoke;
+        }
+        
+        #contactUsForm,
+        input[type=text] {
+            color: white;
+            font-weight: 500;
+            font-family: 'Courier New', Courier, monospace;
+            z-index: 1000;
+        }
