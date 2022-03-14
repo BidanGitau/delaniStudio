@@ -1,4 +1,14 @@
 $(document).ready(function() {
+    $('.service-icon').click(function() {
+        $(".description").toggle();
+    });
+})
+$(document).ready(function() {
+    $('.service-icon').click(function() {
+        $(".description").toggle();
+    });
+})
+$(document).ready(function() {
         $('.service-icon').click(function() {
             $(".description").toggle();
         });
