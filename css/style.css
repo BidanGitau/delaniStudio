@@ -82,3 +82,10 @@
             font-family: 'Courier New', Courier, monospace;
             z-index: 1000;
         }
+        
+        .social {
+            display: flex;
+            padding: 10px;
+            margin-bottom: 10px;
+            z-index: 100000;
+        }
