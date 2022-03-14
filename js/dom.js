@@ -24,3 +24,26 @@ $(document).ready(function() {
 //     track: ["Prep", "JavaScript", "Python", "Django"],
 //     enrollmentStatus: true
 // };
+
+
+$(document).ready(function() {
+
+
+    $('#contactUsForm').submit(function(evt) {
+        evt.preventDefault();
+
+        const form = evt.target;
+
+        if (!form.checkValidity()) {
+            $(form).find('.alert').addClass('alert-danger').html('Check Missing Fields').show();
+            return;
+        }
+
+        const formData = new FormData(form);
+        console.log(formData);
+
+        $(form).find('.alert').addClass('alert-success')
+            .html(form.name.value + ' we have received your message. Thank you fro reaching out to us.')
+            .show()
+    });
+});
