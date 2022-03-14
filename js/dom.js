@@ -1,22 +1,23 @@
 $(document).ready(function() {
+    $('.p-design').click(function() {
+        $('.sd').toggle();
+        $(".design-icon").toggle();
+    });
     $('.service-icon').click(function() {
-        $(".description").toggle();
+        $(".ppd").toggle();
+        $('.design').toggle();
+    });
+
+    $('.product-icon').click(function() {
+        $(".pd").toggle();
+        $('.design').toggle();
     });
 })
-$(document).ready(function() {
-    $('.service-icon').click(function() {
-        $(".description").toggle();
-    });
-})
-$(document).ready(function() {
-        $('.service-icon').click(function() {
-            $(".description").toggle();
-        });
-    })
-    // Let moringaStudent = {
-    //     firstName: ”Morris”,
-    //     LastName: ”Kwambulu”,
-    //     Level: 1,
-    //     track: ["Prep", "JavaScript", "Python", "Django"],
-    //     enrollmentStatus: true
-    // };
+
+// Let moringaStudent = {
+//     firstName: ”Morris”,
+//     LastName: ”Kwambulu”,
+//     Level: 1,
+//     track: ["Prep", "JavaScript", "Python", "Django"],
+//     enrollmentStatus: true
+// };
