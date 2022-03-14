@@ -1,18 +1,21 @@
 $(document).ready(function() {
-    $('.p-design').click(function() {
-        $('.sd').toggle();
-        $(".design-icon").toggle();
+    $("#1, #one").click(function() {
+        $(".hidden1").toggle();
+        $("#one").toggle();
     });
-    $('.service-icon').click(function() {
-        $(".ppd").toggle();
-        $('.design').toggle();
+});
+$(document).ready(function() {
+    $("#2, #two").click(function() {
+        $(".hidden2").toggle();
+        $("#two").toggle();
     });
-
-    $('.product-icon').click(function() {
-        $(".pd").toggle();
-        $('.design').toggle();
+});
+$(document).ready(function() {
+    $("#3, #three").click(function() {
+        $(".hidden3").toggle();
+        $("#three").toggle();
     });
-})
+});
 
 // Let moringaStudent = {
 //     firstName: ”Morris”,

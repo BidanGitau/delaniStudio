@@ -126,3 +126,9 @@
             border: rgb(147, 228, 54) solid 2px;
             padding: 5px;
         }
+        
+        #one,
+        #two,
+        #three {
+            display: none;
+        }
