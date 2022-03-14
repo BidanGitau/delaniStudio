@@ -132,3 +132,8 @@
         #three {
             display: none;
         }
+        
+        .alert {
+            background: transparent;
+            color: aliceblue;
+        }

@@ -42,7 +42,7 @@ $(document).ready(function() {
         const formData = new FormData(form);
         console.log(formData);
 
-        $(form).find('.alert').addClass('alert-success')
+        $(form).find('.alert').addClass('alert-primary')
             .html(form.name.value + ' we have received your message. Thank you fro reaching out to us.')
             .show()
     });
