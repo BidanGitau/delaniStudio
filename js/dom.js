@@ -47,3 +47,7 @@ $(document).ready(function() {
             .show()
     });
 });
+
+$('img').click(function(e) {
+
+})
